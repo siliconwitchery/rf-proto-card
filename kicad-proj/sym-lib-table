@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name sw-logo)(type Legacy)(uri ${KIPRJMOD}/sw-logo.lib)(options "")(descr ""))
+)
