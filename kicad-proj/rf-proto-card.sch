@@ -81,4 +81,914 @@ F 3 "~" H 6150 7500 50  0001 C CNN
 	1    6150 7500
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:Conn_Coaxial J1
+U 1 1 613B9EFC
+P 1850 2050
+F 0 "J1" H 1778 2288 50  0001 C CNN
+F 1 "sma-a-in" H 1950 2050 50  0000 L CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132134-10_Vertical" H 1850 2050 50  0001 C CNN
+F 3 " ~" H 1850 2050 50  0001 C CNN
+	1    1850 2050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 613C1348
+P 1850 2250
+F 0 "#PWR01" H 1850 2000 50  0001 C CNN
+F 1 "GND" H 1855 2077 50  0001 C CNN
+F 2 "" H 1850 2250 50  0001 C CNN
+F 3 "" H 1850 2250 50  0001 C CNN
+	1    1850 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR017
+U 1 1 613C3146
+P 5150 2250
+F 0 "#PWR017" H 5150 2000 50  0001 C CNN
+F 1 "GND" H 5155 2077 50  0001 C CNN
+F 2 "" H 5150 2250 50  0001 C CNN
+F 3 "" H 5150 2250 50  0001 C CNN
+	1    5150 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R A5
+U 1 1 613C9E07
+P 2850 2050
+F 0 "A5" V 2735 2050 50  0000 C CNN
+F 1 "R" H 2920 2005 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2780 2050 50  0001 C CNN
+F 3 "~" H 2850 2050 50  0001 C CNN
+	1    2850 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R A3
+U 1 1 613D0C1A
+P 2600 1800
+F 0 "A3" H 2530 1800 50  0000 R CNN
+F 1 "R" H 2670 1755 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2530 1800 50  0001 C CNN
+F 3 "~" H 2600 1800 50  0001 C CNN
+	1    2600 1800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R A2
+U 1 1 613D1BF4
+P 2600 1300
+F 0 "A2" H 2530 1300 50  0000 R CNN
+F 1 "R" H 2670 1255 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2530 1300 50  0001 C CNN
+F 3 "~" H 2600 1300 50  0001 C CNN
+	1    2600 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R A4
+U 1 1 613D216E
+P 2850 1550
+F 0 "A4" V 2735 1550 50  0000 C CNN
+F 1 "R" H 2920 1505 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2780 1550 50  0001 C CNN
+F 3 "~" H 2850 1550 50  0001 C CNN
+	1    2850 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R A7
+U 1 1 613D3055
+P 3100 1800
+F 0 "A7" H 3030 1800 50  0000 R CNN
+F 1 "R" H 3170 1755 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3030 1800 50  0001 C CNN
+F 3 "~" H 3100 1800 50  0001 C CNN
+	1    3100 1800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R A6
+U 1 1 613D35BD
+P 3100 1300
+F 0 "A6" H 3030 1300 50  0000 R CNN
+F 1 "R" H 3170 1255 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3030 1300 50  0001 C CNN
+F 3 "~" H 3100 1300 50  0001 C CNN
+	1    3100 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 613D8E10
+P 2600 1150
+F 0 "#PWR05" H 2600 900 50  0001 C CNN
+F 1 "GND" H 2605 977 50  0001 C CNN
+F 2 "" H 2600 1150 50  0001 C CNN
+F 3 "" H 2600 1150 50  0001 C CNN
+	1    2600 1150
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 613D9588
+P 3100 1150
+F 0 "#PWR07" H 3100 900 50  0001 C CNN
+F 1 "GND" H 3105 977 50  0001 C CNN
+F 2 "" H 3100 1150 50  0001 C CNN
+F 3 "" H 3100 1150 50  0001 C CNN
+	1    3100 1150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2600 1950 2600 2050
+Connection ~ 2600 2050
+Wire Wire Line
+	2600 2050 2700 2050
+Wire Wire Line
+	3000 2050 3100 2050
+Wire Wire Line
+	3100 2050 3100 1950
+Wire Wire Line
+	2600 1650 2600 1550
+Connection ~ 2600 1550
+Wire Wire Line
+	2600 1550 2600 1450
+Wire Wire Line
+	2600 1550 2700 1550
+Wire Wire Line
+	3100 1450 3100 1550
+Wire Wire Line
+	3100 1550 3000 1550
+Wire Wire Line
+	3100 1550 3100 1650
+Connection ~ 3100 1550
+$Comp
+L Device:R A1
+U 1 1 613E4F21
+P 2300 1300
+F 0 "A1" H 2230 1300 50  0000 R CNN
+F 1 "R" H 2370 1255 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2230 1300 50  0001 C CNN
+F 3 "~" H 2300 1300 50  0001 C CNN
+	1    2300 1300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2300 1450 2300 1550
+Wire Wire Line
+	2300 1550 2600 1550
+Wire Wire Line
+	2300 1150 2300 950 
+Wire Wire Line
+	3200 2050 3100 2050
+Connection ~ 3100 2050
+$Comp
+L Device:R A11
+U 1 1 613F49C3
+P 4150 2050
+F 0 "A11" V 4035 2050 50  0000 C CNN
+F 1 "R" H 4220 2005 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4080 2050 50  0001 C CNN
+F 3 "~" H 4150 2050 50  0001 C CNN
+	1    4150 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R A9
+U 1 1 613F49C9
+P 3900 1800
+F 0 "A9" H 3830 1800 50  0000 R CNN
+F 1 "R" H 3970 1755 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3830 1800 50  0001 C CNN
+F 3 "~" H 3900 1800 50  0001 C CNN
+	1    3900 1800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R A8
+U 1 1 613F49CF
+P 3900 1300
+F 0 "A8" H 3830 1300 50  0000 R CNN
+F 1 "R" H 3970 1255 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3830 1300 50  0001 C CNN
+F 3 "~" H 3900 1300 50  0001 C CNN
+	1    3900 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R A10
+U 1 1 613F49D5
+P 4150 1550
+F 0 "A10" V 4035 1550 50  0000 C CNN
+F 1 "R" H 4220 1505 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4080 1550 50  0001 C CNN
+F 3 "~" H 4150 1550 50  0001 C CNN
+	1    4150 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R A13
+U 1 1 613F49DB
+P 4400 1800
+F 0 "A13" H 4330 1800 50  0000 R CNN
+F 1 "R" H 4470 1755 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4330 1800 50  0001 C CNN
+F 3 "~" H 4400 1800 50  0001 C CNN
+	1    4400 1800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R A12
+U 1 1 613F49E1
+P 4400 1300
+F 0 "A12" H 4330 1300 50  0000 R CNN
+F 1 "R" H 4470 1255 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4330 1300 50  0001 C CNN
+F 3 "~" H 4400 1300 50  0001 C CNN
+	1    4400 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR011
+U 1 1 613F49E7
+P 3900 1150
+F 0 "#PWR011" H 3900 900 50  0001 C CNN
+F 1 "GND" H 3905 977 50  0001 C CNN
+F 2 "" H 3900 1150 50  0001 C CNN
+F 3 "" H 3900 1150 50  0001 C CNN
+	1    3900 1150
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR013
+U 1 1 613F49ED
+P 4400 1150
+F 0 "#PWR013" H 4400 900 50  0001 C CNN
+F 1 "GND" H 4405 977 50  0001 C CNN
+F 2 "" H 4400 1150 50  0001 C CNN
+F 3 "" H 4400 1150 50  0001 C CNN
+	1    4400 1150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3800 2050 3900 2050
+Wire Wire Line
+	3900 1950 3900 2050
+Connection ~ 3900 2050
+Wire Wire Line
+	3900 2050 4000 2050
+Wire Wire Line
+	4300 2050 4400 2050
+Wire Wire Line
+	4400 2050 4400 1950
+Wire Wire Line
+	3900 1650 3900 1550
+Connection ~ 3900 1550
+Wire Wire Line
+	3900 1550 3900 1450
+Wire Wire Line
+	3900 1550 4000 1550
+Wire Wire Line
+	4400 1450 4400 1550
+Wire Wire Line
+	4400 1550 4300 1550
+Wire Wire Line
+	4400 1550 4400 1650
+Connection ~ 4400 1550
+Connection ~ 4400 2050
+$Comp
+L power:GND #PWR09
+U 1 1 6141FA59
+P 3400 2350
+F 0 "#PWR09" H 3400 2100 50  0001 C CNN
+F 1 "GND" H 3405 2177 50  0001 C CNN
+F 2 "" H 3400 2350 50  0001 C CNN
+F 3 "" H 3400 2350 50  0001 C CNN
+	1    3400 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L RF_Amplifier:GALI-52 U1
+U 1 1 614237D5
+P 3500 2050
+F 0 "U1" H 3500 2325 50  0000 C CNN
+F 1 "GALI-52" H 3500 2326 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-89-3" H 3550 2450 50  0001 C CNN
+F 3 "https://www.minicircuits.com/pdfs/GALI-52+.pdf" H 3500 2050 50  0001 C CNN
+	1    3500 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J3
+U 1 1 6143B2B9
+P 5150 2050
+F 0 "J3" H 5078 2288 50  0001 C CNN
+F 1 "sma-a-out" H 5250 2050 50  0000 L CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132134-10_Vertical" H 5150 2050 50  0001 C CNN
+F 3 " ~" H 5150 2050 50  0001 C CNN
+	1    5150 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 6143D50D
+P 2000 1100
+F 0 "#PWR03" H 2000 850 50  0001 C CNN
+F 1 "GND" H 2005 927 50  0001 C CNN
+F 2 "" H 2000 1100 50  0001 C CNN
+F 3 "" H 2000 1100 50  0001 C CNN
+	1    2000 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 1050 2000 1050
+Wire Wire Line
+	2000 1050 2000 1100
+Wire Wire Line
+	4400 1550 4700 1550
+Wire Wire Line
+	4700 950  4700 1150
+Wire Wire Line
+	4700 1550 4700 1450
+$Comp
+L Device:R A14
+U 1 1 613F4A01
+P 4700 1300
+F 0 "A14" H 4630 1300 50  0000 R CNN
+F 1 "R" H 4770 1255 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4630 1300 50  0001 C CNN
+F 3 "~" H 4700 1300 50  0001 C CNN
+	1    4700 1300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2050 2050 2600 2050
+Wire Wire Line
+	1950 950  2300 950 
+$Comp
+L Connector:TestPoint TP1
+U 1 1 6144878A
+P 1950 950
+F 0 "TP1" V 2145 1022 50  0001 C CNN
+F 1 "rail-a-in" V 1950 1150 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 2150 950 50  0001 C CNN
+F 3 "~" H 2150 950 50  0001 C CNN
+	1    1950 950 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP2
+U 1 1 614492A6
+P 1950 1050
+F 0 "TP2" V 1900 1250 50  0001 L CNN
+F 1 "gnd" V 1950 1250 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 2150 1050 50  0001 C CNN
+F 3 "~" H 2150 1050 50  0001 C CNN
+	1    1950 1050
+	0    -1   -1   0   
+$EndComp
+Text Notes 7450 5950 0    50   ~ 0
+Impedence calculations:\n\nPCB specs:\n- PCB layers = 2\n- Er = 4.29\n- Copper thickness = 1oz (35um)\n- PCB thickness = 0.8mm (0.7 - 0.75 core)\n\nTransmission line specs:\n- Line impedence = 50 ohm\n- Topology: co-planer waveguide with ground layer\n- Trace width = 0.95mm (for 0603)\n- Gap = 0.26mm
+$Comp
+L Connector:Conn_Coaxial J2
+U 1 1 6146EFDE
+P 1850 3950
+F 0 "J2" H 1778 4188 50  0001 C CNN
+F 1 "sma-b-in" H 1950 3950 50  0000 L CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132134-10_Vertical" H 1850 3950 50  0001 C CNN
+F 3 " ~" H 1850 3950 50  0001 C CNN
+	1    1850 3950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 6146EFE4
+P 1850 4150
+F 0 "#PWR02" H 1850 3900 50  0001 C CNN
+F 1 "GND" H 1855 3977 50  0001 C CNN
+F 2 "" H 1850 4150 50  0001 C CNN
+F 3 "" H 1850 4150 50  0001 C CNN
+	1    1850 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR018
+U 1 1 6146EFEA
+P 5150 4150
+F 0 "#PWR018" H 5150 3900 50  0001 C CNN
+F 1 "GND" H 5155 3977 50  0001 C CNN
+F 2 "" H 5150 4150 50  0001 C CNN
+F 3 "" H 5150 4150 50  0001 C CNN
+	1    5150 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 6146F014
+P 2600 3050
+F 0 "#PWR06" H 2600 2800 50  0001 C CNN
+F 1 "GND" H 2605 2877 50  0001 C CNN
+F 2 "" H 2600 3050 50  0001 C CNN
+F 3 "" H 2600 3050 50  0001 C CNN
+	1    2600 3050
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 6146F01A
+P 3100 3050
+F 0 "#PWR08" H 3100 2800 50  0001 C CNN
+F 1 "GND" H 3105 2877 50  0001 C CNN
+F 2 "" H 3100 3050 50  0001 C CNN
+F 3 "" H 3100 3050 50  0001 C CNN
+	1    3100 3050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2600 3850 2600 3950
+Connection ~ 2600 3950
+Wire Wire Line
+	2600 3950 2700 3950
+Wire Wire Line
+	3000 3950 3100 3950
+Wire Wire Line
+	3100 3950 3100 3850
+Wire Wire Line
+	2600 3550 2600 3450
+Connection ~ 2600 3450
+Wire Wire Line
+	2600 3450 2600 3350
+Wire Wire Line
+	2600 3450 2700 3450
+Wire Wire Line
+	3100 3350 3100 3450
+Wire Wire Line
+	3100 3450 3000 3450
+Wire Wire Line
+	3100 3450 3100 3550
+Connection ~ 3100 3450
+$Comp
+L Device:R B1
+U 1 1 6146F02D
+P 2300 3200
+F 0 "B1" H 2230 3200 50  0000 R CNN
+F 1 "R" H 2370 3155 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2230 3200 50  0001 C CNN
+F 3 "~" H 2300 3200 50  0001 C CNN
+	1    2300 3200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2300 3350 2300 3450
+Wire Wire Line
+	2300 3450 2600 3450
+Wire Wire Line
+	2300 3050 2300 2850
+Wire Wire Line
+	3200 3950 3100 3950
+Connection ~ 3100 3950
+$Comp
+L power:GND #PWR012
+U 1 1 6146F05C
+P 3900 3050
+F 0 "#PWR012" H 3900 2800 50  0001 C CNN
+F 1 "GND" H 3905 2877 50  0001 C CNN
+F 2 "" H 3900 3050 50  0001 C CNN
+F 3 "" H 3900 3050 50  0001 C CNN
+	1    3900 3050
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR014
+U 1 1 6146F062
+P 4400 3050
+F 0 "#PWR014" H 4400 2800 50  0001 C CNN
+F 1 "GND" H 4405 2877 50  0001 C CNN
+F 2 "" H 4400 3050 50  0001 C CNN
+F 3 "" H 4400 3050 50  0001 C CNN
+	1    4400 3050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3800 3950 3900 3950
+Wire Wire Line
+	3900 3850 3900 3950
+Connection ~ 3900 3950
+Wire Wire Line
+	3900 3950 4000 3950
+Wire Wire Line
+	4300 3950 4400 3950
+Wire Wire Line
+	4400 3950 4400 3850
+Wire Wire Line
+	3900 3550 3900 3450
+Connection ~ 3900 3450
+Wire Wire Line
+	3900 3450 3900 3350
+Wire Wire Line
+	3900 3450 4000 3450
+Wire Wire Line
+	4400 3350 4400 3450
+Wire Wire Line
+	4400 3450 4300 3450
+Wire Wire Line
+	4400 3450 4400 3550
+Connection ~ 4400 3450
+Connection ~ 4400 3950
+$Comp
+L power:GND #PWR010
+U 1 1 6146F077
+P 3400 4250
+F 0 "#PWR010" H 3400 4000 50  0001 C CNN
+F 1 "GND" H 3405 4077 50  0001 C CNN
+F 2 "" H 3400 4250 50  0001 C CNN
+F 3 "" H 3400 4250 50  0001 C CNN
+	1    3400 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L RF_Amplifier:GALI-52 U2
+U 1 1 6146F07D
+P 3500 3950
+F 0 "U2" H 3500 4225 50  0000 C CNN
+F 1 "GALI-52" H 3500 4226 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-89-3" H 3550 4350 50  0001 C CNN
+F 3 "https://www.minicircuits.com/pdfs/GALI-52+.pdf" H 3500 3950 50  0001 C CNN
+	1    3500 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J4
+U 1 1 6146F083
+P 5150 3950
+F 0 "J4" H 5078 4188 50  0001 C CNN
+F 1 "sma-b-out" H 5250 3950 50  0000 L CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132134-10_Vertical" H 5150 3950 50  0001 C CNN
+F 3 " ~" H 5150 3950 50  0001 C CNN
+	1    5150 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 6146F089
+P 2000 3000
+F 0 "#PWR04" H 2000 2750 50  0001 C CNN
+F 1 "GND" H 2005 2827 50  0001 C CNN
+F 2 "" H 2000 3000 50  0001 C CNN
+F 3 "" H 2000 3000 50  0001 C CNN
+	1    2000 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 2950 2000 2950
+Wire Wire Line
+	2000 2950 2000 3000
+Wire Wire Line
+	4400 3450 4700 3450
+Wire Wire Line
+	4700 2850 4700 3050
+Wire Wire Line
+	4700 3450 4700 3350
+Wire Wire Line
+	2050 3950 2600 3950
+Wire Wire Line
+	1950 2850 2300 2850
+$Comp
+L Connector:TestPoint TP3
+U 1 1 6146F09F
+P 1950 2850
+F 0 "TP3" V 2145 2922 50  0001 C CNN
+F 1 "rail-b-in" V 1950 3050 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 2150 2850 50  0001 C CNN
+F 3 "~" H 2150 2850 50  0001 C CNN
+	1    1950 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP4
+U 1 1 6146F0A5
+P 1950 2950
+F 0 "TP4" V 1900 3150 50  0001 L CNN
+F 1 "gnd" V 1950 3150 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 2150 2950 50  0001 C CNN
+F 3 "~" H 2150 2950 50  0001 C CNN
+	1    1950 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R B2
+U 1 1 6147082A
+P 2600 3200
+F 0 "B2" H 2530 3200 50  0000 R CNN
+F 1 "R" H 2670 3155 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2530 3200 50  0001 C CNN
+F 3 "~" H 2600 3200 50  0001 C CNN
+	1    2600 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R B6
+U 1 1 61470B99
+P 3100 3200
+F 0 "B6" H 3030 3200 50  0000 R CNN
+F 1 "R" H 3170 3155 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3030 3200 50  0001 C CNN
+F 3 "~" H 3100 3200 50  0001 C CNN
+	1    3100 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R B8
+U 1 1 61471073
+P 3900 3200
+F 0 "B8" H 3830 3200 50  0000 R CNN
+F 1 "R" H 3970 3155 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3830 3200 50  0001 C CNN
+F 3 "~" H 3900 3200 50  0001 C CNN
+	1    3900 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R B12
+U 1 1 6147162F
+P 4400 3200
+F 0 "B12" H 4330 3200 50  0000 R CNN
+F 1 "R" H 4470 3155 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4330 3200 50  0001 C CNN
+F 3 "~" H 4400 3200 50  0001 C CNN
+	1    4400 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R B14
+U 1 1 614718DB
+P 4700 3200
+F 0 "B14" H 4630 3200 50  0000 R CNN
+F 1 "R" H 4770 3155 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4630 3200 50  0001 C CNN
+F 3 "~" H 4700 3200 50  0001 C CNN
+	1    4700 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R B13
+U 1 1 61471C65
+P 4400 3700
+F 0 "B13" H 4330 3700 50  0000 R CNN
+F 1 "R" H 4470 3655 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4330 3700 50  0001 C CNN
+F 3 "~" H 4400 3700 50  0001 C CNN
+	1    4400 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R B9
+U 1 1 61472022
+P 3900 3700
+F 0 "B9" H 3830 3700 50  0000 R CNN
+F 1 "R" H 3970 3655 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3830 3700 50  0001 C CNN
+F 3 "~" H 3900 3700 50  0001 C CNN
+	1    3900 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R B7
+U 1 1 6147250C
+P 3100 3700
+F 0 "B7" H 3030 3700 50  0000 R CNN
+F 1 "R" H 3170 3655 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3030 3700 50  0001 C CNN
+F 3 "~" H 3100 3700 50  0001 C CNN
+	1    3100 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R B3
+U 1 1 61472A46
+P 2600 3700
+F 0 "B3" H 2530 3700 50  0000 R CNN
+F 1 "R" H 2670 3655 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2530 3700 50  0001 C CNN
+F 3 "~" H 2600 3700 50  0001 C CNN
+	1    2600 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R B5
+U 1 1 61472F55
+P 2850 3950
+F 0 "B5" V 2700 3950 50  0000 C CNN
+F 1 "R" H 2920 3905 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2780 3950 50  0001 C CNN
+F 3 "~" H 2850 3950 50  0001 C CNN
+	1    2850 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R B4
+U 1 1 61473458
+P 2850 3450
+F 0 "B4" V 2700 3450 50  0000 C CNN
+F 1 "R" H 2920 3405 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2780 3450 50  0001 C CNN
+F 3 "~" H 2850 3450 50  0001 C CNN
+	1    2850 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R B10
+U 1 1 614737BD
+P 4150 3450
+F 0 "B10" V 4000 3450 50  0000 C CNN
+F 1 "R" H 4220 3405 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4080 3450 50  0001 C CNN
+F 3 "~" H 4150 3450 50  0001 C CNN
+	1    4150 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R B11
+U 1 1 61473DB1
+P 4150 3950
+F 0 "B11" V 4000 3950 50  0000 C CNN
+F 1 "R" H 4220 3905 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4080 3950 50  0001 C CNN
+F 3 "~" H 4150 3950 50  0001 C CNN
+	1    4150 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L rf-proto-card:proto-area Z4
+U 1 1 61434AAC
+P 6650 2650
+F 0 "Z4" H 6842 2696 50  0000 L CNN
+F 1 "proto-area" H 6842 2605 50  0000 L CNN
+F 2 "rf-proto-card:proto-area" H 6650 2650 50  0001 C CNN
+F 3 "" H 6650 2650 50  0001 C CNN
+	1    6650 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L rf-proto-card:proto-area Z3
+U 1 1 6143363E
+P 6650 2250
+F 0 "Z3" H 6842 2296 50  0000 L CNN
+F 1 "proto-area" H 6842 2205 50  0000 L CNN
+F 2 "rf-proto-card:proto-area" H 6650 2250 50  0001 C CNN
+F 3 "" H 6650 2250 50  0001 C CNN
+	1    6650 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L rf-proto-card:proto-area Z2
+U 1 1 61431C9C
+P 6650 1850
+F 0 "Z2" H 6842 1896 50  0000 L CNN
+F 1 "proto-area" H 6842 1805 50  0000 L CNN
+F 2 "rf-proto-card:proto-area" H 6650 1850 50  0001 C CNN
+F 3 "" H 6650 1850 50  0001 C CNN
+	1    6650 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L rf-proto-card:proto-area Z1
+U 1 1 6142D788
+P 6650 1450
+F 0 "Z1" H 6842 1496 50  0000 L CNN
+F 1 "proto-area" H 6842 1405 50  0000 L CNN
+F 2 "rf-proto-card:proto-area" H 6650 1450 50  0001 C CNN
+F 3 "" H 6650 1450 50  0001 C CNN
+	1    6650 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:RF_Shield_One_Piece J5
+U 1 1 6153788E
+P 8850 1750
+F 0 "J5" H 9480 1739 50  0000 L CNN
+F 1 "RF_Shield_One_Piece" H 9480 1648 50  0000 L CNN
+F 2 "RF_Shielding:Laird_Technologies_BMI-S-209-F_29.36x18.50mm" H 8850 1650 50  0001 C CNN
+F 3 "~" H 8850 1650 50  0001 C CNN
+	1    8850 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:RF_Shield_One_Piece J6
+U 1 1 6153AC39
+P 8850 2800
+F 0 "J6" H 9480 2789 50  0000 L CNN
+F 1 "RF_Shield_One_Piece" H 9480 2698 50  0000 L CNN
+F 2 "RF_Shielding:Laird_Technologies_BMI-S-209-F_29.36x18.50mm" H 8850 2700 50  0001 C CNN
+F 3 "~" H 8850 2700 50  0001 C CNN
+	1    8850 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR019
+U 1 1 6153BDEF
+P 8850 2150
+F 0 "#PWR019" H 8850 1900 50  0001 C CNN
+F 1 "GND" H 8855 1977 50  0001 C CNN
+F 2 "" H 8850 2150 50  0001 C CNN
+F 3 "" H 8850 2150 50  0001 C CNN
+	1    8850 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR020
+U 1 1 6153C476
+P 8850 3200
+F 0 "#PWR020" H 8850 2950 50  0001 C CNN
+F 1 "GND" H 8855 3027 50  0001 C CNN
+F 2 "" H 8850 3200 50  0001 C CNN
+F 3 "" H 8850 3200 50  0001 C CNN
+	1    8850 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR015
+U 1 1 6156D027
+P 5000 1100
+F 0 "#PWR015" H 5000 850 50  0001 C CNN
+F 1 "GND" H 5005 927 50  0001 C CNN
+F 2 "" H 5000 1100 50  0001 C CNN
+F 3 "" H 5000 1100 50  0001 C CNN
+	1    5000 1100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 1050 5000 1050
+Wire Wire Line
+	5000 1050 5000 1100
+Wire Wire Line
+	5050 950  4700 950 
+$Comp
+L Connector:TestPoint TP5
+U 1 1 6156D030
+P 5050 950
+F 0 "TP5" V 5245 1022 50  0001 C CNN
+F 1 "rail-a-out" V 5050 1150 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5250 950 50  0001 C CNN
+F 3 "~" H 5250 950 50  0001 C CNN
+	1    5050 950 
+	0    1    -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP6
+U 1 1 6156D036
+P 5050 1050
+F 0 "TP6" V 5000 1250 50  0001 L CNN
+F 1 "gnd" V 5050 1250 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5250 1050 50  0001 C CNN
+F 3 "~" H 5250 1050 50  0001 C CNN
+	1    5050 1050
+	0    1    -1   0   
+$EndComp
+$Comp
+L power:GND #PWR016
+U 1 1 6156F9F5
+P 5000 3000
+F 0 "#PWR016" H 5000 2750 50  0001 C CNN
+F 1 "GND" H 5005 2827 50  0001 C CNN
+F 2 "" H 5000 3000 50  0001 C CNN
+F 3 "" H 5000 3000 50  0001 C CNN
+	1    5000 3000
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 2950 5000 2950
+Wire Wire Line
+	5000 2950 5000 3000
+Wire Wire Line
+	5050 2850 4700 2850
+$Comp
+L Connector:TestPoint TP7
+U 1 1 6156F9FE
+P 5050 2850
+F 0 "TP7" V 5245 2922 50  0001 C CNN
+F 1 "rail-b-out" V 5050 3050 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5250 2850 50  0001 C CNN
+F 3 "~" H 5250 2850 50  0001 C CNN
+	1    5050 2850
+	0    1    -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP8
+U 1 1 6156FA04
+P 5050 2950
+F 0 "TP8" V 5000 3150 50  0001 L CNN
+F 1 "gnd" V 5050 3150 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5250 2950 50  0001 C CNN
+F 3 "~" H 5250 2950 50  0001 C CNN
+	1    5050 2950
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	4400 3950 4950 3950
+Wire Wire Line
+	4400 2050 4950 2050
 $EndSCHEMATC
