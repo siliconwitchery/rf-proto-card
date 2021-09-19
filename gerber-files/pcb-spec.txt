@@ -1,17 +1,18 @@
 ----------------------------------------------------------------------
                             PCB specifications
 ----------------------------------------------------------------------
-Board type:             Impedence controlled FR4. Er = 4.29
+Board type:             Impedance controlled FR4. Er = 4.29
 Total dimension:        85.6 x 53.98 mm
 Copper layers:          2
 Material:               FR4 TG 150-160
 Board thickness:        0.8mm
+Core thickness:         0.711mm
 Min track / spacing:    8mil / 8mil
 Min hole size:          0.25mm
 Soldermask color:       Black
 Silkscreen:             White
 Surface finish:         ENIG RoHS
-Outside copper weight:  1oz
+Outside copper weight:  1oz (35um)
 
 -----------------------------------------------------------------------
                             Board Stackup

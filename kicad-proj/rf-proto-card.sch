@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "RF Proto Business Card"
-Date "2021-09-14"
-Rev "1"
+Date "2021-09-19"
+Rev "2"
 Comp "Silicon Witchery AB"
 Comment1 "Engineer: Raj Nakarja"
 Comment2 "https://creativecommons.org/licenses/by/4.0/"
@@ -376,7 +376,7 @@ U 1 1 614237D5
 P 4450 3350
 F 0 "U1" H 4450 3625 50  0000 C CNN
 F 1 "GALI-52" H 4450 3626 50  0001 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-89-3" H 4500 3750 50  0001 C CNN
+F 2 "rf-proto-card:SOT-89-3" H 4500 3750 50  0001 C CNN
 F 3 "https://www.minicircuits.com/pdfs/GALI-52+.pdf" H 4450 3350 50  0001 C CNN
 	1    4450 3350
 	1    0    0    -1  
@@ -451,7 +451,7 @@ F 3 "~" H 3100 2350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text Notes 800  7450 0    50   ~ 0
-Impedence calculations:\n\nPCB specs:\n- PCB layers = 2\n- Er = 4.29\n- Copper thickness = 1oz (35um)\n- PCB thickness = 0.8mm (0.7 - 0.75 core)\n\nTransmission line specs:\n- Line impedence = 50 ohm\n- Topology: co-planer waveguide with ground layer\n- Trace width = 0.95mm (for 0603)\n- Gap = 0.26mm
+Impedence calculations:\n\nPCB specs:\n- PCB layers = 2\n- Er = 4.29\n- Copper thickness = 0.035mm (1oz)\n- Core thickness = 0.711mm\n- Final PCB thickness = 0.8mm\n\nTransmission line specs:\n- Line impedence = 50 ohm\n- Topology: co-planer waveguide with ground layer\n- Trace width = 0.85mm (for 0603)\n- Gap = 0.211mm
 $Comp
 L power:GND #PWR018
 U 1 1 6146EFE4
@@ -986,7 +986,7 @@ U 1 1 6146F07D
 P 4450 5250
 F 0 "U2" H 4450 5525 50  0000 C CNN
 F 1 "GALI-52" H 4450 5526 50  0001 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-89-3" H 4500 5650 50  0001 C CNN
+F 2 "rf-proto-card:SOT-89-3" H 4500 5650 50  0001 C CNN
 F 3 "https://www.minicircuits.com/pdfs/GALI-52+.pdf" H 4450 5250 50  0001 C CNN
 	1    4450 5250
 	-1   0    0    -1  
