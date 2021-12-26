@@ -1,4 +1,4 @@
 (sym_lib_table
-  (lib (name sw-logo)(type Legacy)(uri ${KIPRJMOD}/sw-logo.lib)(options "")(descr ""))
-  (lib (name rf-proto-card)(type Legacy)(uri ${KIPRJMOD}/rf-proto-card.lib)(options "")(descr ""))
+  (lib (name "sw-logo")(type "KiCad")(uri "${KIPRJMOD}/sw-logo.kicad_sym")(options "")(descr ""))
+  (lib (name "rf-proto-card")(type "KiCad")(uri "${KIPRJMOD}/rf-proto-card.kicad_sym")(options "")(descr ""))
 )

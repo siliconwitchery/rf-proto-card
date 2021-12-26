@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name rf-proto-card)(type KiCad)(uri ${KIPRJMOD}/rf-proto-card.pretty)(options "")(descr ""))
+  (lib (name "rf-proto-card")(type "KiCad")(uri "${KIPRJMOD}/rf-proto-card.pretty")(options "")(descr ""))
 )
