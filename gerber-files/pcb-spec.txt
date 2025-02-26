@@ -19,12 +19,12 @@ Outside copper weight:  1oz (35um)
 -----------------------------------------------------------------------
 Copper      Layer                           Filename
 -----------------------------------------------------------------------
-            Front silk                      rf-proto-card-F_SilkS.gbr
+            Front silk                      rf-proto-card-F_Silkscreen.gbr
             Front mask                      rf-proto-card-F_Mask.gbr
 1           Front copper                    rf-proto-card-F_Cu.gbr
 2           Back copper                     rf-proto-card-B_Cu.gbr
             Back mask                       rf-proto-card-B_Mask.gbr
-            Back silk                       rf-proto-card-B_SilkS.gbr
+            Back silk                       rf-proto-card-B_Silkscreen.gbr
 
             Drill plated through hole       rf-proto-card-PTH.drl
             Drill non-plated through hole   rf-proto-card-NPTH.drl
